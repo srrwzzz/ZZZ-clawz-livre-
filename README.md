@@ -250,7 +250,7 @@ Clone o seu repositório e instale as dependências:
 Bash
 
 
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/srrwzzz/ZZZ-clawz-livre-/blob/main/zzzclawz-basico-pronto-para-github%20(1).zip
 cd SEU-REPOSITORIO
 npm install
 
