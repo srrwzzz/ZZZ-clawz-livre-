@@ -169,8 +169,7 @@ Clone o repositório (depois de publicá-lo) ou extraia o arquivo ZIP:
 Bash
 
 
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
+
 
 
 
