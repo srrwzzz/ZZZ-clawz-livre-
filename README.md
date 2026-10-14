@@ -347,55 +347,6 @@ O bot não precisa receber tráfego HTTP externo; ele precisa conseguir se conec
 
 
 
-📤 Como publicar no GitHub
-
-Opção A — pelo site do GitHub
-
-1.
-Entre no 
-
-GitHub e crie um repositório novo.
-
-2.
-Escolha um nome, por exemplo zzzclawz-basico.
-
-3.
-Se for enviar estes arquivos locais, crie o repositório sem adicionar outro README, .gitignore ou licença — assim evita conflitos.
-
-4.
-Use Add file → Upload files e envie os arquivos do projeto. Não envie node_modules/, .env, assets/auth/ nem dados reais de database/.
-
-5.
-Escreva uma mensagem de commit, por exemplo docs: adiciona apresentação do projeto, e confirme o envio.
-
-Opção B — pelo terminal
-
-Dentro da pasta do projeto:
-
-Bash
-
-
-git init -b main
-git add .
-git status                 # Confira os arquivos antes de publicar
-git commit -m "feat: publica bot básico de WhatsApp"
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-git push -u origin main
-
-
-
-Antes de git push, confira git status e confirme que nenhum arquivo de sessão, segredo ou banco de dados real será enviado. As regras de .gitignore deste projeto ajudam a proteger esses arquivos.
-
-Texto pronto para o campo “About” do repositório
-
-
-🤖 Bot básico de WhatsApp em Node.js com comandos essenciais, perfil, recompensa diária e ferramentas simples para grupos. Feito com Baileys.
-
-Sugestões de tópicos: whatsapp-bot · nodejs · javascript · baileys · whatsapp
-
-
-
-
 🗂️ Estrutura do projeto
 
 Plain Text
